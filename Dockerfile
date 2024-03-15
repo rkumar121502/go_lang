@@ -1,12 +1,11 @@
-# Dockerfile References: https://docs.docker.com/engine/reference/builder/
-
-# Start from the latest golang base image
+# Note: This Dockerfile will build the go lang project and start the application at 8080 pott
+# we will start from the latest golang base image
 FROM golang:latest
 
 # Add Maintainer Info
 LABEL maintainer="Rakesh Kumar <rakesh.kumar121502@gmail.com>"
 
-# Set the Current Working Directory inside the container
+# Setting the Current Working Directory inside the container
 WORKDIR /app
 
 # Copy everything from the current directory to the Working Directory inside the container
