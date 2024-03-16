@@ -1,0 +1,19 @@
+linters-settings:
+  golint:
+    enabled: true
+  govet:
+    enabled: true
+  gocritic:
+    enabled: true
+  gocyclo:
+    enabled: true
+  gofmt:
+    enabled: true
+  goimports:
+    enabled: true
+  unconvert:
+    enabled: true
+  ineffassign:
+    enabled: true
+  revive:
+    enabled: true
